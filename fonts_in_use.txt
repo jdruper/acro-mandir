@@ -1,0 +1,24 @@
+Fonts actively used in this project
+-----------------------------------
+
+
+Font name       :   Open Sans
+Font provider   :   google
+
+******************************************************************************
+
+Font name       :   Open Sans Condensed
+Font provider   :   google
+
+******************************************************************************
+
+Font name       :   Helvetica Neue eText Pr1255995
+Font provider   :   fonts.com
+
+******************************************************************************
+
+
+
+
+
+Created by Typecast on 2014/08/08.

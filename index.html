@@ -1,163 +1,326 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
-    <link rel="stylesheet" href="css/app.css" />
-    <script src="bower_components/modernizr/modernizr.js"></script>
-  </head>
-  <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+
+        <!-- // Change these to better suit your project -->
+        <title>Festival de Acroyoga - Yoga Mandir</title>
+        <meta name="description" content="Yoga Mandir lo invita al festival de AcroYoga 2014">
+        <meta name="keywords" content="yoga, costarica, festival, acro, acroyoga, mandir">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+        <meta name="generator" content="Lovingly created using Typecast (http://typecast.com) on 2014/08/08">
+
+        <link rel="shortcut icon" href="assets/favicon.ico">
+
+        <!-- // CSS Reset – http://meyerweb.com/eric/tools/css/reset/ -->
+        <!-- <link rel="stylesheet" type="text/css" href="css/reset.css" media="all"> -->
+        <link rel="stylesheet" type="text/css" href="css/app.css" media="all">
+
+        <!-- // Option one: Live updating CSS -->
+        <!-- // This embed code adds your fonts and live Typecast CSS to the page -->
+         <!--<script type="text/javascript" src="http://typecast.com/project_css/balance/234345d24c4100.js"></script>-->
+
+        <!-- // Option two: Bundled CSS 
+// To  use the fonts in your embed code without your hosted CSS, delete the snippet above and uncomment this block
+        -->
+        
+        <script type="text/javascript">var __tcaExcludeHostedCss=true;</script>
+        <script type="text/javascript" src="http://typecast.com/project_css/balance/234345d24c4100.js"></script>        
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+        <script type="text/javascript" src="bower_components/modernizr/modernizr.js"></script>
+       
+
+
+    </head>
+
+<body>
+  <header class="masthead sticky" id="Inicio">
+    <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on:small">
+      <ul class="title-area">
+        <li class="name">
+          <a href="#"><img class="logo" src="assets/5eb3b60b8e24e031fa1119ff92c9b659/6e69b50aadb84c62224229d4e0b08189/06ee652a924819bb3fa288fd0d9586aa/1407479878/logo_yogamandir.png"/></a>
+        </li>
+         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li><a href="#Inicio">Inicio</a></li>
+          <li><a href="#Profesores">Profesores</a></li>
+          <li><a href="#Acroyoga">Acroyoga</a></li>
+          <li><a href="#Horarios">Horario</a></li>
+          <li><a href="#Colaboradores">Colaboradores</a></li>
+        </ul>        
+      </section>
+    </nav>    
+  </header>
+  <section class="callout-top">
+    <!-- <div class="wrapper">
+      <p class="callout">Primer Festival de Acroyoga</p>
+    </div>
+    <div class="wrapper">
+      <p class="callout">5, 6,7 y 8 de Septiembre</p>
+    </div> -->
+    <ul class="example-orbit" data-orbit data-options="animation:slide; 
+                                                      animation_speed:500;
+                                                      timer_speed: 4000;
+                                                      navigation_arrows:true;
+                                                      bullets:false;
+                                                      slide_number:false;
+                                                      resume_on_mouseout:true;">
+  <li>
+    <img src="assets/fotos/143-1546.jpg" alt="slide 1" />
+    <div class="orbit-caption">
+      Caption One.
+    </div>
+  </li>
+  <li class="active">
+    <img src="assets/fotos/143-851.jpg" alt="slide 2" />
+    <div class="orbit-caption">
+      Caption Two.
+    </div>
+  </li>
+  <li>
+    <img src="assets/fotos/143-693.jpg" alt="slide 3" />
+    <div class="orbit-caption">
+      Caption Three.
+    </div>
+  </li>
+</ul>
+  </section>
+  <section class="team" id="Profesores">
+    <div class="wrapper">
+      <h1 class="bg-line">Profesores</h1>
+      <p class="tagline">Acróbatas - Artistas - Trapecistas - Yoguis</p>
+      <div class="team-grid">
+        <div class="grid-unit">
+          <div class="circular">
+            <img class="avatar" src="assets/5eb3b60b8e24e031fa1119ff92c9b659/6e69b50aadb84c62224229d4e0b08189/06ee652a924819bb3fa288fd0d9586aa/1407451771/ale.jpg"/>
+          </div>
+          <h3>Alejandra Ulate</h3>
+          <p class="team-emph">Acroyoga</p>
+          <p>
+            <a href="#">name@email.com</a>
+          </p>
+        </div>
+        <div class="grid-unit">
+          <div class="circular">
+            <img src="assets/5eb3b60b8e24e031fa1119ff92c9b659/6e69b50aadb84c62224229d4e0b08189/06ee652a924819bb3fa288fd0d9586aa/1407451762/edgar.jpg" class="avatar"/>
+          </div>
+          <h3>Edgar Ortiz</h3>
+          <p class="team-emph">Acroyoga</p>
+          <p>
+            <a>name@email.com</a>
+          </p>
+        </div>
+        <div class="grid-unit">
+          <div class="circular">
+            <img src="assets/5eb3b60b8e24e031fa1119ff92c9b659/6e69b50aadb84c62224229d4e0b08189/06ee652a924819bb3fa288fd0d9586aa/1407451781/deva.jpg" class="avatar"/>
+          </div>
+          <h3>Deva Kumar</h3>
+          <p class="team-emph">Acroyoga</p>
+          <p>
+            <a>name@email.com</a>
+          </p>
+        </div>
+        <div class="grid-unit">
+          <div class="circular">
+            <img src="http://typecast.com/js/src/images/placeholders/1x1.png" class="avatar"/>
+          </div>
+          <h3>María Sabina Araya</h3>
+          <p class="team-emph">Managing Director</p>
+          <p>
+            <a>name@email.com</a>
+          </p>
+        </div>
+        <div class="grid-unit">
+          <div class="circular">
+            <img src="http://typecast.com/js/src/images/placeholders/1x1.png" class="avatar"/>
+          </div>
+          <h3>Wilson Solano</h3>
+          <p class="team-emph">Managing Director</p>
+          <p>
+            <a>name@email.com</a>
+          </p>
+        </div>
+        <div class="grid-unit">
+          <div class="circular">
+            <img src="http://typecast.com/js/src/images/placeholders/1x1.png" class="avatar"/>
+          </div>
+          <h3>Virginia Delbino</h3>
+          <p class="team-emph">Managing Director</p>
+          <p>
+            <a>name@email.com</a>
+          </p>
+        </div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>
-          </div>
+  </section>
+  <section class="callout no-padding">
+  <div class="row div-ambos">
+      <div class="small-12 columns">
+        <div class="wrapper">
+          <p class="callout">¿Soy <span class="color-principiante" data-target="principiante">principiante</span> o <span class="color-avanzado" data-target="avanzado">avanzado</span>?</p>
         </div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
-
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-
-        <hr />
-
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
+    <div class="contain-to-grid hide" data-sublevel="principiante">
+      <div class="row div-principiante">
+        <div class="small-12 columns">
           <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
+            <div class="small-12 columns">
+              <div class="wrapper">
+                <p class="callout">Nuestras clases orientadas a principiantes contienen las bases del yoga integrándolas con un poco de acrobacia. Incluye también todas nuestras actividades de masaje tai. Se puede considerar principiante si nunca ha hecho yoga o si tiene una práctica básica.</p>
+        </div>
             </div>
           </div>
+        </div>      
+      </div>
+    </div>
+    <div class="contain-to-grid hide" data-sublevel="avanzado">
+      <div class="row div-avanzado">
+        <div class="small-12 columns">
           <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
-                </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
+            <div class="small-12 columns">
+              <div class="wrapper">
+                <p class="callout">Nuestras clases orientadas a avanzados asumen que usted tiene una práctica regular de yoga. Se impartirán clases que buscan aplicar sus conocimientos del yoga de una manera más acrobática. Se puede considerar avanzado si tiene una práctica de yoga constante.</p>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>
-        </div>
+        </div>      
       </div>
     </div>
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+  </section>
+  <section class="ethos" id="Acroyoga">
+    <div class="wrapper">
+      <h1 class="bg-line">Acroyoga</h1>
+      <div class="ethos">
+        <div class="grid-unit2">
+          <blockquote>
+            <p class="quote">"Yoga es como la música, el ritmo del cuerpo, la melodía de la mente y la armonía del alma, crean la sinfonía de la vida" <em class="quote">B.K.S Iyengar</em></p>
+          </blockquote>
+        </div>
+        <div class="grid-unit2">
+          <p class="emph">¿Qué es el Acroyoga?</p>
+          <p><strong>El acroyoga es un tipo de yoga que se practica en parejas</strong>, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam quis risus eget urna mollis ornare.</p>
+          <p class="emph">¿Tengo que llevar una pareja?</p>
+          <p>Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vestibulum id ligula porta.</p>
+        </div>
+      </div>
+      <h1 class="bg-line" id="Horarios">Horario</h1>
+      <ol class="process">
+        <li class="process-item">
+          <div class="process-number">
+            <div class="circle">
+              <span class="circle">5/9</span>
+            </div>
+          </div>
+          <div class="process-content">
+            <h3>Viernes en La Nave</h3>
+            <p class="emph">Show Acrovarieté</p>
+            <p>de 6:00 p.m. a 9:30 p.m. </p>
+          </div>
+        </li>
+        <li class="process-item">
+          <div class="process-number">
+            <div class="circle">
+              <span class="circle">6/9</span>
+            </div>
+          </div>
+          <div class="process-content">
+            <h3>Sábado en Promenade</h3>
+            <p class="emph">Yoga Para Todos - Salón 1</p>
+            <p class="horas">de 9:00 a.m. a 11:15 a.m.</p>
+            <p>por <strong>Edgar Ortiz</strong></p>
+            <p class="emph">Balances de Brazos - Salón 1</p>
+            <p class="horas">de 9:00 a.m. a 11:15 a.m.</p>
+            <p>por Alejandra Ulate</p>
+            <p class="emph">Acrotai - Salón 2</p>
+            <p class="horas">de 12:15 p.m. a 1:30 p.m.</p>
+            <p>por Deva Kumar</p>
+          </div>
+        </li>
+        <li class="process-item">
+          <div class="process-number">
+            <div class="circle">
+              <span class="circle">7/9</span>
+            </div>
+          </div>
+          <div class="process-content">
+            <h3>Domingo en Promenade</h3>
+            <p class="emph">Intro al Parkour - Salón 2</p>
+            <p>de 9:am a 11:15 a.m.</p>
+          </div>
+        </li>
+      </ol>
+      <h1 class="bg-line" id="Colaboradores">A nuestros amigos, gracias!</h1>
+      <ul class="col-3-css">
+        <li><div id="contributorsOne" class="shadow"><a target="_blank" href="http://www.artespromenade.com/">Promenade</a></div></li>
+        <li><div id="contributorsTwo" class="shadow"><a target="_blank" href="http://www.danzaire.com/">Danzaire</a></div></li>
+        <li>
+          <div id="contributorsThree" class="shadow"><a target="_blank" href="http://www.puntomuertocr.com/PUNTOMUERTO/">Casa Lamat</a></div>
+        </li>
+        <li><div id="contributorsFour" class="shadow"><a target="_blank" href="http://www.puntomuertocr.com/PUNTOMUERTO/">Punto Muerto</a></div></li>
+        <li><div id="contributorsFive" class="shadow"><a target="_blank" href="https://www.facebook.com/JaguaresCentroDeAcrobacia">Jaguar</a></div></li>
+        <li><div id="contributorsSix" class="shadow"><a target="_blank" href="https://www.facebook.com/lanavemtk?fref=ts">La Nave</a></div></li>
+         <li><div id="contributorsSeven" class="shadow"><a target="_blank" href="http://www.acroyoga.org/">AcroYoga</a></div></li>
+        <li>
+          <br/>
+        </li>        
+        <li>
+          <br/>
+        </li>
+        <li>
+          <br/>
+        </li>
+        <li>
+          <br/>
+        </li>
+      </ul>
+    </div>
+    <footer class="site-footer">
+      <section class="half-half">
+        <div class="hlaf-xs">
+          <p class="footer">Yoga Mandir: Escuela de Yoga y Masaje Tailandés</p>
+          <p class="footer">25 24 18 43  |  info@yoga-mandir.com</p>
+          <p class="footer">50 metros al este de Soda la U, San Pedro<br/></p>
+          <p class="footer">© Copyright Yoga Mandir 2014  |  San José, Costa RIca</p>
+        </div>
+        <div class="hlaf-xs">
+          <ul class="footer-nav-xs">
+            <li class="footer-li">
+              <a class="footer-a-s">Inicio</a>
+            </li>
+            <li class="footer-li">
+              <a class="footer-a-s">Profesores</a>
+            </li>
+            <li class="footer-li">
+              <a class="footer-a-s">Acroyoga</a>
+            </li>
+            <li class="footer-li">
+              <a class="footer-a-s">Horario</a>
+            </li>
+            <li class="footer-li">
+              <a class="footer-a-s">Amigos</a>
+            </li>
+          </ul>
+          <br/>
+        </div>
+      </section>
+    </footer>
+  </section>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="bower_components/foundation/js/foundation.js"></script>
+  <script type="text/javascript" src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+  <script type="text/javascript" src="bower_components/foundation/js/foundation/foundation.orbit.js"></script>
+  <script type="text/javascript" src="bower_components/jquery-ui-1.11.1.custom/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/nivel.plugin.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
 </html>
